@@ -1,5 +1,5 @@
 @import "colors"
-
+@import "fontello"
 body
   margin: 0
   padding: 0
@@ -19,14 +19,17 @@ a
 
 .main-navigation
   margin-top: 30px
-  padding: 5px
   background-color: $white
   border-radius: 4px
+  &_logo
+    margin-right: 25px
   &_menu
     display: flex
+    flex-wrap: wrap
     li
       margin-right: 50px
       a
+        text-decoration: none
         text-transform: uppercase
         color: $base-color
         font-size: 14px
@@ -37,21 +40,39 @@ a
           width: 100%
           height: 2px
           background-color: $hover-color
-          transform: translateY(24px)  scale(0)
+          transform: translateY(23px)  scale(0)
           transition: all 0.2s
         &:hover
           color: $hover-color
           &::after
-            transform: translateY(24px) scale(1)
+            transform: translateY(23px) scale(1)
         &:focus
           color: $hover-color
           outline: none
           &::after
-            transform: translateY(24px) scale(1)
+            transform: translateY(23px) scale(1)
         &:active
           color: $active-color
           &:after
             color: $active-color
             background-color: $active-color
-            transform: translateY(24px) scale(1)
+            transform: translateY(23px) scale(1)
+  &_info
+    margin: 0
+    padding: 0
+    li
+      margin-right: 10px
+      a
+        color: $base-color
+        text-decoration: none
+        font-size: 12px
+        font-weight: 400
+        &:hover
+          color: $hover-color
+        &:focus
+          color: $hover-color
+        &:active
+          color: $active-color
+
+
 

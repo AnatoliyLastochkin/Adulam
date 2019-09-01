@@ -89,6 +89,10 @@ body {
   background-position: top center;
 }
 
+.container {
+  width: 960px;
+}
+
 ul {
   margin: 0;
   padding: 0;

@@ -3,21 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fb3dadc1-4583-46ad-9917-b45586ae1ea6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/20246370_202045026992158_6698838768029255821_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/20292687_205742226622438_1992588598719629066_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Layer 0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/Layer 0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Layer 1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg — копия (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg — копия.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg-s1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo-adulam.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo-adulam1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo-adulam2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo-adulam5.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.sass" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+            <state relative-caret-position="198">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/main.sass">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -94,8 +80,8 @@
         <option value="$PROJECT_DIR$/1.html" />
         <option value="$PROJECT_DIR$/sass/_colors.sass" />
         <option value="$PROJECT_DIR$/sass/fontello.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/main.sass" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -110,7 +96,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,6 +112,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -163,15 +149,16 @@
       <workItem from="1567097786734" duration="5890000" />
       <workItem from="1567105491640" duration="2140000" />
       <workItem from="1567161901992" duration="9163000" />
-      <workItem from="1567183162807" duration="1704000" />
+      <workItem from="1567183162807" duration="1944000" />
+      <workItem from="1567343169001" duration="637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26979000" />
+    <option name="totallyTimeSpent" value="27856000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.077380955" />
@@ -228,17 +215,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="44" />
         </state>
       </provider>
     </entry>

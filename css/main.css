@@ -156,3 +156,19 @@ a {
 .main-navigation_info li a:active {
   color: #b2b2b2;
 }
+
+.main {
+  margin-top: 25px;
+}
+
+.slogan {
+  font-size: 24px;
+}
+.slogan strong {
+  color: #bb6c05;
+}
+
+.carousel-inner {
+  margin-top: 15px;
+  border-radius: 4px;
+}

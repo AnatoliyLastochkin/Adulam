@@ -294,3 +294,10 @@ a {
 .twitter:hover {
   color: #ffffff;
 }
+
+.copy {
+  text-align: end;
+}
+.copy h3 {
+  margin-bottom: 140px;
+}

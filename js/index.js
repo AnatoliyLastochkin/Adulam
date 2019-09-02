@@ -12,12 +12,23 @@ function popupMap() {
       evt.preventDefault();
       popupMap.classList.add('modal-open');
     });
-  })
+  });
 
 
   mapClose.addEventListener('click', evt => {
     evt.preventDefault();
     popupMap.classList.remove('modal-open');
+  });
+
+  window.addEventListener('keydown', evt => {
+    evt.preventDefault();
+    const escButton = 27;
+
+    if (evt.keyCode === escButton) {
+      if (popupMap.classList.contains('modal-open')) {
+        popupMap.classList.remove('modal-open');
+      }
+    }
   })
 }
 

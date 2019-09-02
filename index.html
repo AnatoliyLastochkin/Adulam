@@ -10,14 +10,17 @@
   <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
   <title>Adulam</title>
 
-  <!--Bootstrap grid CSS-->
-  <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+  <!--Bootstrap 4.3.1-->
+  <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
   <!--Custom style CSS-->
   <link rel="stylesheet" href="./css/main.css">
   <!--Fonts Google Roboto-->
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic"
         rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="./js/index.js" defer></script>
 </head>
 <body>
   <header class="main-header">
@@ -41,19 +44,20 @@
               <li><a href="#">EVENTOS</a></li>
               <li><a href="#">CONTACTO</a></li>
             </ul>
-
             <ul class="main-navigation_info">
               <li>
-                <a href="#"><i class="icon-location"></i> Av. Alcalde Cantos Ropero 50 Jerez</a>
+                <a href="#" class="contacts-button-map">
+                  <i class="icon-location"></i> Av. Alcalde Cantos Ropero 50 Jerez
+                </a>
               </li>
               <li>
-                <a href="mailto:info@tharsisbetel.com"><i class="icon-mail-alt"></i> info@tharsisbetel.com</a>
+                <a href="mailto:info@tharsisbetel.com">
+                  <i class="icon-mail-alt"></i> info@tharsisbetel.com
+                </a>
               </li>
             </ul>
-
           </div>
         </nav>
-
 
     </div>
   </header>
@@ -70,31 +74,31 @@
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./img/slade-1.jpg" class="d-block w-100" alt="...">
+            <img src="./img/slade-1.jpg" width="960" height="450" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./img/slade-2.jpg" class="d-block w-100" alt="...">
+            <img src="./img/slade-2.jpg" width="960" height="450" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./img/slade-3.jpg" class="d-block w-100" alt="...">
+            <img src="./img/slade-3.jpg" width="960" height="450" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./img/slade-4.jpg" class="d-block w-100" alt="...">
+            <img src="./img/slade-4.jpg" width="960" height="450" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./img/slade-5.jpg" class="d-block w-100" alt="...">
+            <img src="./img/slade-5.jpg" width="960" height="450" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./img/slade-6.jpg" class="d-block w-100" alt="...">
+            <img src="./img/slade-6.jpg" width="960" height="450" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./img/slade-7.jpg" class="d-block w-100" alt="...">
+            <img src="./img/slade-7.jpg" width="960" height="450" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./img/slade-8.jpg" class="d-block w-100" alt="...">
+            <img src="./img/slade-8.jpg" width="960" height="450" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./img/slade-9.jpg" class="d-block w-100" alt="...">
+            <img src="./img/slade-9.jpg" width="960" height="450" class="d-block w-100" alt="...">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -138,16 +142,22 @@
           <h3>MÁS INFORMACIÓN:</h3>
           <ul class="footer_info">
             <li>
-              <a class="btn btn-outline-warning" href="#" role="button">Сomo llegar a nuestra oficina</a>
+              <a class="btn btn-outline-warning contacts-button-map" href="#"
+                 role="button">Сomo llegar a nuestra oficina</a>
             </li>
             <li>
-              <a href="#"><i class="icon-location"></i> Av. Alcalde Cantos Ropero 50 Jerez</a>
+              <a href="#" class="contacts-button-map">
+                <i class="icon-location"></i> Av. Alcalde Cantos Ropero 50 Jerez</a>
             </li>
             <li>
-              <a class="footer_info_phone" href="tel:+34698553279"><i class="icon-phone"></i> +34698553279</a>
+              <a class="footer_info_phone" href="tel:+34698553279">
+                <i class="icon-phone"></i> +34698553279
+              </a>
             </li>
             <li>
-              <a href="mailto:info@tharsisbetel.com"><i class="icon-mail-alt"></i> info@tharsisbetel.com</a>
+              <a href="mailto:info@tharsisbetel.com">
+                <i class="icon-mail-alt"></i> info@tharsisbetel.com
+              </a>
             </li>
           </ul>
         </div>
@@ -162,17 +172,22 @@
         </div>
         <div class="col-md-4">
           <div class="copy">
+
             <h3>NUESTRO EQUIPO</h3>
-
-
             <p>Copyright © 2019.Todos los derechos reservados</p>
           </div>
         </div>
       </div>
+
     </div>
+
   </footer>
 
-
+  <section class="modal-map">
+    <h2 class="visually-hidden">Сomo llegar a nuestra oficina</h2>
+    <p><img src="./img/map.png" width="960" height="580" alt="the address of the office"></p>
+    <button class="modal-close" type="button">close</button>
+  </section>
 
 
 
@@ -180,7 +195,6 @@
 <script>
   window.jQuery || document.write('<script src="./js/jquery-3.2.1.slim.min.js"><\/script>')
 </script>
-
 
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>

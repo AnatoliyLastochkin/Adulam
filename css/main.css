@@ -458,3 +458,12 @@ input[type="radio"].visually-hidden {
   -webkit-animation: bounce 0.6s;
           animation: bounce 0.6s;
 }
+
+@media screen {
+  .modal-map {
+    width: 400px;
+    height: 900px;
+    margin-top: -450px;
+    margin-left: -200px;
+  }
+}

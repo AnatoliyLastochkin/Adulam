@@ -329,6 +329,19 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding: 0;
 }
+.footer_info li:first-child a {
+  color: red;
+}
+.footer_info li:first-child a:hover {
+  color: #ffffff;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.footer_info li:first-child a:focus {
+  color: #ffffff;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
 .footer_info li {
   margin-bottom: 10px;
 }
@@ -337,12 +350,12 @@ input[type="radio"].visually-hidden {
   text-decoration: none;
 }
 .footer_info li a:hover {
-  color: #cd304b;
+  color: #ffc107;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 .footer_info li a:focus {
-  color: #cd304b;
+  color: #ffc107;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -434,12 +447,18 @@ input[type="radio"].visually-hidden {
   cursor: pointer;
   background-color: transparent;
 }
+.modal-close:hover::before {
+  background-color: black;
+}
+.modal-close:hover::after {
+  background-color: black;
+}
 .modal-close::before {
   content: "";
   position: absolute;
   width: 19px;
   height: 3px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
@@ -448,7 +467,7 @@ input[type="radio"].visually-hidden {
   position: absolute;
   width: 19px;
   height: 3px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
@@ -457,13 +476,4 @@ input[type="radio"].visually-hidden {
   display: block;
   -webkit-animation: bounce 0.6s;
           animation: bounce 0.6s;
-}
-
-@media screen {
-  .modal-map {
-    width: 400px;
-    height: 900px;
-    margin-top: -450px;
-    margin-left: -200px;
-  }
 }

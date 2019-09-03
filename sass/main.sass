@@ -135,16 +135,25 @@ input[type="radio"].visually-hidden
   &_info
     margin: 0
     padding: 0
+    li:first-child
+      a
+        color: red
+      a:hover
+        color: $white
+        transition: all 0.2s
+      a:focus
+        color: $white
+        transition: all 0.2s
     li
       margin-bottom: 10px
       a
         color: $white
         text-decoration: none
         &:hover
-          color: $hover-color
+          color: #ffc107
           transition: all 0.2s
         &:focus
-          color: $hover-color
+          color: #ffc107
           transition: all 0.2s
         &:active
           color: $active-color
@@ -216,13 +225,17 @@ input[type="radio"].visually-hidden
   border: 0
   cursor: pointer
   background-color: transparent
+  &:hover
+    &::before
+      background-color: rgba(0, 0, 0, 1)
+    &::after
+      background-color: rgba(0, 0, 0, 1)
   &::before
     content: ""
     position: absolute
     width: 19px
     height: 3px
-
-    background-color: black
+    background-color: rgba(0, 0, 0, 0.5)
     transform: rotate(45deg)
   &::after
     content: ""
@@ -230,19 +243,14 @@ input[type="radio"].visually-hidden
     width: 19px
     height: 3px
 
-    background-color: black
+    background-color: rgba(0, 0, 0, 0.5)
     transform: rotate(-45deg)
 
 .modal-open
   display: block
   animation: bounce 0.6s
 
-@media screen
-  .modal-map
-    width: 400px
-    height: 900px
-    margin-top: -450px
-    margin-left: -200px
+
 
 
 

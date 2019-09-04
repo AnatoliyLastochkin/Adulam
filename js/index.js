@@ -1,5 +1,3 @@
-'use strict';
-
 class PopupMap {
   constructor(element, links) {
     this.element = element;
@@ -7,20 +5,20 @@ class PopupMap {
 
     this.render();
 
-    this.links.forEach(link => {
-      link.addEventListener('click', evt => {
+    this.links.forEach((link) => {
+      link.addEventListener('click', (evt) => {
         evt.preventDefault();
         this.element.classList.add('modal-open');
       });
     });
 
     const modalClose = this.element.querySelector('.modal-close');
-    modalClose.addEventListener('click', evt => {
+    modalClose.addEventListener('click', (evt) => {
       evt.preventDefault();
       this.element.classList.remove('modal-open');
     });
 
-    window.addEventListener('keydown', evt => {
+    window.addEventListener('keydown', (evt) => {
       evt.preventDefault();
 
       const escButton = 27;
@@ -29,7 +27,7 @@ class PopupMap {
           this.element.classList.remove('modal-open');
         }
       }
-    })
+    });
   }
 
   render() {
@@ -42,46 +40,8 @@ class PopupMap {
   }
 }
 
+// eslint-disable-next-line no-new
 new PopupMap(
   document.querySelector('.modal-map'),
-  document.querySelectorAll('.contacts-button-map')
+  document.querySelectorAll('.contacts-button-map'),
 );
-
-
-
-
-if (false) {
-  function popupMap() {
-
-    const mapLinks = document.querySelectorAll('.contacts-button-map');
-
-    const popupMap = document.querySelector('.modal-map');
-    const mapClose = popupMap.querySelector('.modal-close');
-
-    mapLinks.forEach(link =>{
-      link.addEventListener('click', evt => {
-        evt.preventDefault();
-        popupMap.classList.add('modal-open');
-      });
-    });
-
-
-    mapClose.addEventListener('click', evt => {
-      evt.preventDefault();
-      popupMap.classList.remove('modal-open');
-    });
-
-    window.addEventListener('keydown', evt => {
-      evt.preventDefault();
-      const escButton = 27;
-
-      if (evt.keyCode === escButton) {
-        if (popupMap.classList.contains('modal-open')) {
-          popupMap.classList.remove('modal-open');
-        }
-      }
-    })
-  }
-
-  popupMap();
-}
